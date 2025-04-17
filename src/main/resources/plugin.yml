@@ -1,0 +1,8 @@
+name: pingplugin
+version: '0.1-SNAPSHOT'
+main: com.covri.pingplugin.PingPlugin
+api-version: '1.21'
+commands:
+  pingtoggle:
+    description: Toggle ping notifications
+    usage: /pingtoggle

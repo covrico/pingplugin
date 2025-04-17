@@ -1,0 +1,4 @@
+ping:
+  color: "GOLD"  # Customize the color for highlighted usernames
+  sound: "BLOCK_NOTE_BLOCK_PLING"  # Customize the sound played when pinged
+  hover-text: "You've been pinged by %sender%"  # Customize the hover text
