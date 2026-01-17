@@ -4,6 +4,8 @@
 
 Perfect for survival, PvP, and social servers that want to modernize communication and improve team coordination.
 
+## If you want the build dm @wboog on discord
+
 ---
 
 ## ✨ Features
@@ -26,7 +28,6 @@ Hey @Steve, can you help with the base?
 - Steve sees their name in **highlighted text**
 - Hears a soft notification sound
 - Optionally sees a short particle or glow effect
-- And feels instantly called to action ⚡
 
 ---
 
