@@ -32,14 +32,11 @@ public class PingListener implements Listener {
                 Player mentionedPlayer = Bukkit.getPlayer(username);
 
                 if (mentionedPlayer != null && pingEnabled.getOrDefault(mentionedPlayer, true)) {
-                    // Highlight the username
                     String highlighted = ChatColor.valueOf(PingPlugin.getInstance().getConfig().getString("ping.color")) + username;
                     message = message.replace(word, highlighted);
 
-                    // Play sound to mentioned player
                     mentionedPlayer.playSound(mentionedPlayer.getLocation(), Sound.valueOf(PingPlugin.getInstance().getConfig().getString("ping.sound")), 1.0f, 1.0f);
 
-                    // Send hover text
                     mentionedPlayer.spigot().sendMessage(
                             new net.md_5.bungee.api.chat.TextComponent("You've been pinged by " + sender.getName())
                     );
